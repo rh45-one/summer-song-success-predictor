@@ -11,11 +11,11 @@ Project for Challenge The Summer Song Hackathon, Task #6, under the Enseña by O
 ```
 summer-song-success-predictor/
 ├── data/               # Datasets
-│   └── canciones_verano.csv
+│   └── summer_songs.csv
 ├── notebooks/          # Jupyter notebooks
-│   └── modelo_cancion_verano.ipynb
+│   └── summer_songs_model.ipynb
 ├── models/             # Modelos serializados
-│   └── modelo_exito_cancion.pkl
+│   └── song_success_model.pkl
 ├── src/                # Código fuente modular (opcional)
 │   ├── data_loader.py
 │   ├── preprocessing.py
