@@ -11,7 +11,7 @@ Project for Challenge The Summer Song Hackathon, Task #6, under the Enseña by O
 ```
 summer-song-success-predictor/
 ├── data/               # Datasets
-│   └── summer_songs.csv
+│   └── songs.csv
 ├── notebooks/          # Jupyter notebooks
 │   └── summer_songs_model.ipynb
 ├── models/             # Modelos serializados
