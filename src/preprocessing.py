@@ -2,7 +2,6 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import OneHotEncoder
 
 def build_preprocessor(df: pd.DataFrame):
     """
@@ -27,7 +26,6 @@ def build_preprocessor(df: pd.DataFrame):
     numeric_pipeline = Pipeline([
         ('scaler', StandardScaler())
     ])
-    
     cat_pipeline = Pipeline([
         ('onehot', OneHotEncoder(handle_unknown='ignore', sparse_output=False))
     ])
