@@ -7,6 +7,16 @@ Proyecto para el Reto nº6 del hackathon *Challenge The Summer Song* en el progr
 **English:**
 Project for Challenge The Summer Song Hackathon, Task #6, under the Enseña by Oracle Spain program. Trains an ML model to predict which acoustic features and popularity metrics make a track a successful “Summer Song.”
 
+## Enunciado / Statement
+Entrena un modelo predictivo con herramientas de Machine Learning que prediga qué características hacen exitosa una canción del verano.
+
+Se permite generar el modelo directamente en Jupyter Notebook o user Oracle Machine Learning (Database Actions) y trabajar desde el propio cloud:
+
+* Exportar datos desde la app en APEX
+* Crear un notebook en Jupyter
+* Usar AutoML o scikit-learn para entrenar el modelo
+* Subir el notebook a GitHub y compartir enlace
+
 ## Estructura / Structure
 ```
 summer-song-success-predictor/
@@ -31,8 +41,8 @@ summer-song-success-predictor/
 ```bash
 git clone https://github.com/tu-usuario/summer-song-success-predictor.git
 cd summer-song-success-predictor
-# Coloca canciones_verano.csv en data/
-jupyter notebook notebooks/modelo_cancion_verano.ipynb
+# Coloca songs.csv en data/
+jupyter notebook notebooks/summer_song_model.ipynb
 ```
 
 ## Licencia / License
