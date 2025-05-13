@@ -27,7 +27,8 @@ def build_preprocessor(df: pd.DataFrame):
         ('scaler', StandardScaler())
     ])
     cat_pipeline = Pipeline([
-        ('onehot', OneHotEncoder(handle_unknown='ignore', sparse_output=False))
+      # KEEP sparse_output=True (default) to avoid densifying
+       ('onehot', OneHotEncoder(handle_unknown='ignore'))
     ])
 
     # ColumnTransformer
