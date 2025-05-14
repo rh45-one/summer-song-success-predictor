@@ -17,6 +17,9 @@ Se permite generar el modelo directamente en Jupyter Notebook o user Oracle Mach
 * Usar AutoML o scikit-learn para entrenar el modelo
 * Subir el notebook a GitHub y compartir enlace
 
+## Implementación / Implementation
+Este proyecto utiliza **scikit-learn puro** para el desarrollo del modelo predictivo, sin depender de soluciones AutoML. Se aprovecha el API de Pipeline de scikit-learn para crear un flujo de trabajo completo, combinando preprocesamiento de datos y entrenamiento de un modelo RandomForest con búsqueda de hiperparámetros mediante GridSearchCV.
+
 ## Estructura / Structure
 ```
 summer-song-success-predictor/
